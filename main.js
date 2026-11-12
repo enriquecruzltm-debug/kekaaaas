@@ -5,7 +5,7 @@
   const WORKS = [
     ['2026', ['Produced', 'Written', 'Mixed', 'Engineered', 'Edited'], 'Gracias', 'YoSoyJackie', 'track-03'],
     ['2026', ['Produced', 'Written', 'Mixed', 'Engineered', 'Edited'], 'Amores de Mentiras', 'Perla Caballero', 'track-04'],
-    ['2026', ['Produced', 'Written', 'Engineered', 'Edited'], 'Balas Al Pecho', 'Perla Caballero', 'track-05'],
+    ['2026', ['Produced', 'Written', 'Engineered', 'Edited'], 'Balas Al Pecho', 'Mily Alcubierre', 'track-05'],
     ['2025', ['Produced', 'Written', 'Mixed', 'Mastered', 'Engineered', 'Edited'], 'acoustictypeshit', 'kekas', 'track-01'],
     ['2024', ['Produced', 'Written', 'Mixed', 'Mastered', 'Engineered', 'Edited'], '6.6 EP', 'Vale Palacios', 'track-02'],
   ].map(([year, credits, title, artist, id]) => ({ year, credits, title, artist, id, src: `audio/${id}.mp3` }));
